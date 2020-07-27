@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^b14n\.com$
+RewriteRule ^(.*)$ "https\:\/\/medialova\.com\/blog$1" [R=301,L]
+
